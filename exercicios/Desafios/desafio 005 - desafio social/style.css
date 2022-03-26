@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'runescape';
+  src: url('font/runescape_uf.ttf');
+}
+
+* {
+  font-family: 'runescape', Courier, monospace;
+}
+
+main {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 60%;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 5px 5px 15px #271f50;
+}
+
+body {
+  background-color: #772ce8;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+li {
+  text-align: start;
+}
