@@ -13,6 +13,12 @@
   padding: 0;
 }
 
+html,
+body {
+  min-height: 100%;
+  background-color: darkgray;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -23,20 +29,21 @@ a:hover {
 }
 
 header {
-  height: 200px;
   background-color: black;
   color: white;
   text-align: center;
 }
 header h1 {
-  padding: 35px;
+  padding-top: 50px;
   font-size: 3.5em;
   font-family: var(--fonte2);
   font-weight: normal;
+  font-variant: small-caps;
 }
 header p {
   font-family: var(--fonte1);
   font-weight: normal;
+  padding-bottom: 50px;
 }
 
 main {
@@ -44,16 +51,23 @@ main {
   font-weight: normal;
 }
 
-article {
-  padding-top: 30px;
-}
-
 div {
-  padding: 30px;
+  padding: 10vh 0px 10vh 30px;
   font-size: 1.5em;
+  line-height: 2em;
 }
-
-#flor {
+div.branco {
+  background-color: white;
+}
+div.imagem {
+  background-color: #00000079;
+  width: fit-content;
+  font-weight: normal;
+  font-size: 1em;
+  color: white;
+  padding: 0px;
+}
+div#flor {
   display: block;
 
   background-color: black;
@@ -63,8 +77,7 @@ div {
   background-attachment: fixed;
   background-position: center right;
 }
-
-#livro {
+div#livro {
   display: block;
 
   background-color: black;
@@ -75,15 +88,9 @@ div {
   background-position: center right;
 }
 
-.alt {
-  background-color: #00000059;
-  width: 300px;
-  font-size: 1em;
-  color: white;
-}
-
 footer {
   background-color: black;
   color: white;
+  padding: 5px;
   text-align: center;
 }
