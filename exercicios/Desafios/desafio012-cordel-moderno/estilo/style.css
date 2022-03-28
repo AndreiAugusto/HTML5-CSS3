@@ -35,7 +35,7 @@ header {
 }
 header h1 {
   padding-top: 50px;
-  font-size: 3.5em;
+  font-size: 10vw;
   font-family: var(--fonte2);
   font-weight: normal;
   font-variant: small-caps;
@@ -53,15 +53,16 @@ main {
 
 div {
   padding: 10vh 0px 10vh 30px;
-  font-size: 1.5em;
+  font-size: 3.5vw;
+
   line-height: 2em;
 }
 div.branco {
   background-color: white;
 }
 div.imagem {
+  display: inline-block;
   background-color: #00000079;
-  width: fit-content;
   font-weight: normal;
   font-size: 1em;
   color: white;
