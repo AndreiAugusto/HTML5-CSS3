@@ -63,13 +63,15 @@ div.branco {
 div.imagem {
   display: inline-block;
   background-color: #00000079;
+
   font-weight: normal;
   font-size: 1em;
+  text-shadow: 1px 1px 0px #0000005b;
   color: white;
   padding: 0px;
 }
 div#flor {
-  display: block;
+  box-shadow: inset 6px 10px 13px 0px #0000003b;
 
   background-color: black;
   background-image: url('../imagens/background001.jpg');
@@ -79,7 +81,7 @@ div#flor {
   background-position: center right;
 }
 div#livro {
-  display: block;
+  box-shadow: inset 6px 10px 13px 0px #0000003b;
 
   background-color: black;
   background-image: url('../imagens/background002.jpg');
